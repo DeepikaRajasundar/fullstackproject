@@ -20,13 +20,16 @@ console.log(arrowFunnName())
 
 async function funmName(){
     setTimeout(()=>{
-    return"hello"
-    },1000)
+    console.log("hello")
+    },5000)
+    console.log(await"Hello");
 }
 arrowFunmName=async()=>{
     setTimeout(()=>{
-    return"KEC"
-    },1000)
+    console.log("KEC")
+    },4000)
+    console.log(await "KEC");
 }
-console.log(funmName())
-console.log(arrowFunmName())
+funmName()
+arrowFunmName()
+
