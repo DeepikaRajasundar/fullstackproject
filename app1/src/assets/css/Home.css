@@ -1,0 +1,22 @@
+ 
+#idegg{
+    text-align: center;
+    color:red;
+}
+.box-model{
+    font-size:30px;
+    margin: 10px;
+    border:20px solid blue;
+    padding-left:50px;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
+    position: relative; /* Use fixed if you want it always at the bottom */
+  }
+  

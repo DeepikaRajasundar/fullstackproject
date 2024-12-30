@@ -1,0 +1,55 @@
+/* Center the entire form section */
+section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Align and style the header */
+  section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style labels */
+  section label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Style input fields */
+  section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Style the button */
+  section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  section button:hover {
+    background-color: #0056b3;
+  }
+  
