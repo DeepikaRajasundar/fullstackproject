@@ -1,13 +1,9 @@
- /* Footer Styling */
 .footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
+    background-color: #282c34;
     color: white;
-    margin-top: 40px;
-    font-size: 14px;
-    width: 100%;
-    position: relative; /* Use fixed if you want it to stay at the bottom */
+    padding: 1rem 0;
+    text-align: center;
+    position: relative; /* Optional: Make it sticky */
     bottom: 0;
+    width: 100%;
   }
-  

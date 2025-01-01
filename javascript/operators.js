@@ -34,3 +34,8 @@ console.log("Bitwise operator",a<<5);
 //7.Ternary operator
 b=(a!=0)?(a,"not equal to zero"):(a,"is equal to zero");
 console.log("Ternary operator",b)
+
+let x=10;
+console.log(++x);
+console.log(x++)
+console.log(x)

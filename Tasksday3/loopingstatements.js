@@ -14,7 +14,7 @@ for(var b of array)
     console.log(b);
 }
 
-//3.for..each
+//3.for..each 1st variable always value 2nd variable always index value
 array.forEach((element,index)=>{
     console.log("Element is",element, "and","Index is",index)
 })
@@ -30,12 +30,18 @@ objtype1={
 }
 console.log(objtype1)
 console.log(objtype1.age)
-for(key in objtype1){
-    value=objtype1[key];
-    console.log(key,value);
+
+for ( let key in objtype1) {
+    console.log("Key is", key, "and Value is", objtype1[key]);
 }
 
-Object.keys(objtype1).forEach(key=>{
-    const vaue=objtype1[key];
-    console.log(key,value)
-})
+
+Object.entries(objtype1).forEach(([key, value]) => {
+    console.log("Key is", key, "and Value is", value);
+});
+
+for (const [key, value] of Object.entries(objtype1)) {
+    console.log("Key is", key, "and Value is", value);
+}
+
+

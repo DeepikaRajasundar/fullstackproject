@@ -1,30 +1,4 @@
-async function likeCode(){
-    return new Promise((like)=>{
-            like("liked post successfully")
-    })
- }
-
-async function commentCode(){
-    return new Promise((commentPosted)=>{
-            commentPosted("comment posted successfully in the post")
-    })
- }
- 
- async function createPost(){
-    var post =new Promise((cPost)=>
-    {
-        cPost("post created successfully")
-    })
-    var [posts,comment,like]=await Promise.all([post,commentCode(),likeCode()])
-    console.log(posts);
-    console.log(comment);
-    console.log(like);
-}
-createPost()
-
-
-// we implemented only post,likes,commment 
-// implemente share,unshare,unpost,unlike,uncomment 
+// Simulate actions using promises
 async function likeCode(like = true) {
     return new Promise((resolve, reject) => {
         if (like) resolve("liked post successfully");
@@ -81,6 +55,7 @@ async function unpostCode(unpost = true) {
     });
 }
 
+// Perform all actions concurrently
 async function performActions() {
     try {
         const [postResult, likeResult, commentResult, shareResult, unshareResult, unlikeResult, uncommentResult, unpostResult] =
@@ -107,4 +82,5 @@ async function performActions() {
     }
 }
 
+// Execute actions
 performActions();

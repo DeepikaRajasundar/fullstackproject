@@ -40,3 +40,5 @@ const Contact = () => {
 };
 
 export default Contact;
+//how root is convert into components
+//coding in inline and internal how it converts into vennila css

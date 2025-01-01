@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-
 import Home from "./Components/FunctionalComponents/Home.jsx";
 import About from './Components/FunctionalComponents/About.jsx';
 import Contact from './Components/FunctionalComponents/Contact.jsx';
 import Gallery from './Components/FunctionalComponents/Gallery.jsx';
 import NavBar from './Components/FunctionalComponents/NavBar.jsx';
 import Form from './Components/FunctionalComponents/Form.jsx';
+import UseEffect from './Components/FunctionalComponents/Hooks/UseEffect.jsx';
+import UseRef from './Components/FunctionalComponents/Hooks/UseRef.jsx';
+import UseContext from './Components/FunctionalComponents/Hooks/UseContext.jsx';
+import UseMemo from './Components/FunctionalComponents/UseMemo.jsx';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +24,10 @@ function App() {
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/form" element={<Form/>}/>
+                    <Route path="/UseEffect" element={<UseEffect/>}/>
+                    <Route path="/use-ref" element={<UseRef/>}/>
+                    <Route path="/UseContext" element={<UseContext/>}/>
+                    <Route path="/UseMemo" element={<UseMemo/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

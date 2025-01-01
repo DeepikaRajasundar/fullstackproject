@@ -38,3 +38,4 @@ greet("Deepika", 21);
 //function with parameters with return type
 const sum = (a, b) => a + b;
 console.log(sum(5, 10));
+//a,b parameters 5,10 arguments(values)

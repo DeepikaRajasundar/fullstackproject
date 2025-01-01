@@ -11,7 +11,7 @@ const databasesharing = () => {
       dbs(); 
       notify(); 
       console.log(formMsg);
-    }, 5000);
+    }, 1000);
   }
   
   submitform("Form submitted successfully", databasesharing, sendEmailNotification);
@@ -28,4 +28,4 @@ const databasesharing = () => {
 greetings=()=>{
     console.log("Thus task completed successfully.....");
 }
-calculate(3,4,greetings);``
+calculate(3,4,greetings);

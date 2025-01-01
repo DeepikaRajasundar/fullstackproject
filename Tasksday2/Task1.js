@@ -1,3 +1,4 @@
+//Finding odd even without using
 function oddeven(number)
 {
     if((number & 1)==0)
