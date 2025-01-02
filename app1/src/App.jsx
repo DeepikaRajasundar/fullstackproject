@@ -9,7 +9,7 @@ import Form from './Components/FunctionalComponents/Form.jsx';
 import UseEffect from './Components/FunctionalComponents/Hooks/UseEffect.jsx';
 import UseRef from './Components/FunctionalComponents/Hooks/UseRef.jsx';
 import UseContext from './Components/FunctionalComponents/Hooks/UseContext.jsx';
-import UseMemo from './Components/FunctionalComponents/UseMemo.jsx';
+import UseMemo from './Components/FunctionalComponents/Hooks/UseMemo.jsx';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
