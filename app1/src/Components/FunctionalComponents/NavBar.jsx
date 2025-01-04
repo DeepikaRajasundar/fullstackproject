@@ -7,6 +7,8 @@ const NavBar = () => {
         <header>
             <nav>
                 <ul>
+                <li><Link to="/Login">Login</Link></li>
+                <li><Link to="/Signup">Signup</Link></li>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/gallery">Gallery</Link></li>
@@ -16,6 +18,8 @@ const NavBar = () => {
                     <li><Link to="/UseEffect">UseEffect</Link></li>
                     <li><Link to="/UseContext">UseContext</Link></li>
                     <li><Link to="/UseMemo">UseMemo</Link></li>
+                    
+                    
                    
                 </ul>
             </nav>
