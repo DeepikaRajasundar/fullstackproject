@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeProvider } from "../Hooks/UseContext";
+import { ThemeProvider } from "../UseContext";
 
 var StudentResult =()=>{
     var result=useContext(ThemeProvider);

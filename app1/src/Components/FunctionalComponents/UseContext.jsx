@@ -1,6 +1,6 @@
 import { createContext } from "react";
 import React from "react";
-import Component2 from "../contextComponents/Component2";
+import Component2 from "./contextComponents/Component2";
 export var ThemeProvider = React.createContext();
 var ExamResults = () => {
 

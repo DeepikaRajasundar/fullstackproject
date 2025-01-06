@@ -7,10 +7,10 @@ import Contact from './Components/FunctionalComponents/Contact.jsx';
 import Gallery from './Components/FunctionalComponents/Gallery.jsx';
 import NavBar from './Components/FunctionalComponents/NavBar.jsx';
 import Form from './Components/FunctionalComponents/Form.jsx';
-import UseEffect from './Components/FunctionalComponents/Hooks/UseEffect.jsx';
-import UseRef from './Components/FunctionalComponents/Hooks/UseRef.jsx';
-import UseContext from './Components/FunctionalComponents/Hooks/UseContext.jsx';
-import UseMemo from './Components/FunctionalComponents/Hooks/UseMemo.jsx';
+import UseEffect from './Components/FunctionalComponents/UseEffect.jsx';
+import UseRef from './Components/FunctionalComponents/UseRef.jsx';
+import UseContext from './Components/FunctionalComponents/UseContext.jsx';
+import UseMemo from './Components/FunctionalComponents/UseMemo.jsx';
 import Login from './Components/FunctionalComponents/Login.jsx'
 import Signup from './Components/FunctionalComponents/Signup.jsx'
 
