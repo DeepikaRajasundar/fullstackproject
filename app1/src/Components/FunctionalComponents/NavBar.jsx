@@ -12,8 +12,7 @@ const NavBar = () => {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/gallery">Gallery</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/footer">Footer</Link></li>
-                    <li><Link to="use-ref">UseRef</Link></li>
+                    <li><Link to="/Use-ref">UseRef</Link></li>
                     <li><Link to="/UseEffect">UseEffect</Link></li>
                     <li><Link to="/usecontext">UseContext</Link></li>
                     <li><Link to="/usememo">UseMemo</Link></li>

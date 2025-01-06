@@ -31,7 +31,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/form" element={<Form/>}/>
                     <Route path="/UseEffect" element={<UseEffect/>}/>
-                    <Route path="/use-ref" element={<UseRef/>}/>
+                    <Route path="/Use-ref" element={<UseRef/>}/>
                     <Route path="/UseContext" element={<UseContext/>}/>
                     <Route path="/UseMemo" element={<UseMemo/>}/>
                    

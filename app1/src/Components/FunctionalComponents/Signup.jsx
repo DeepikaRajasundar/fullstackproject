@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import NavBar from './NavBar';
 
 function SignUpForm() {
   var [firstName, setFirstName] = useState('');
@@ -20,12 +19,11 @@ function SignUpForm() {
       password: password,
     });
     console.log(req);
-    navigate('/login');
+    navigate('/');
   };
 
   return (
     <>
-      <NavBar />
       <div className="signup-container">
         <h2>Welcome to SignUp page</h2>
         <form onSubmit={signup}>
@@ -81,3 +79,4 @@ function SignUpForm() {
 }
 
 export default SignUpForm;
+

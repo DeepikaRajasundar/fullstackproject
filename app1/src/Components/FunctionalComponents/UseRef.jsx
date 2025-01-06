@@ -19,8 +19,9 @@ var UseRef = () => {
       prevState.state=state;
     },[state]);
     return (
+      
       <section>
-        <NavBar />
+        <NavBar/>
         <h1>This is an example of useref</h1>
         <input
           type="text"
