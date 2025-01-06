@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeProvider } from "../UseContext";
+import { ThemeProvider } from "../FunctionalComponents/UseContext";
 
 var StudentResult =()=>{
     var result=useContext(ThemeProvider);
