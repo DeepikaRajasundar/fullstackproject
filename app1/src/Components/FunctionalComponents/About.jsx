@@ -1,5 +1,7 @@
+import NavBar from "./NavBar";
 const About=(props)=>{
     return(<section> 
+        <NavBar />
         <h2 style={{textAlign:"center",fontSize:"50px"}}>Learning props concepts</h2>
         <h1>This is my about page</h1>
     <h2>I am studying in {props.college} College at {props.district}</h2>

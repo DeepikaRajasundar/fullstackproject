@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import NavBar from "./NavBar";
 
 const slowFunction = (number) => {
   console.log("Running slow function...");
@@ -22,6 +23,7 @@ const UseMemo = () => {
 
   return (
     <section>
+      <NavBar />
       <h1>This is Memo</h1>
       <input
         type="number"

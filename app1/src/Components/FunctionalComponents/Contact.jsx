@@ -1,9 +1,11 @@
 import React from 'react';
- 
+import NavBar from "./NavBar";
+
 
 const Contact = () => {
   return (
     <div>
+      <NavBar/>
       <h1 style={{ textAlign: "center", marginBottom: "40px" }}>
         This is my contact page
       </h1>

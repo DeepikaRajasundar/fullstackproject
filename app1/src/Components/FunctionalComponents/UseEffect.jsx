@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import NavBar from "./NavBar";
 
 const UseEffect = () => {
     const [img, setImg] = useState([]);
@@ -17,6 +18,7 @@ const UseEffect = () => {
 
     return (
         <section>
+            <NavBar />
             <h1>Fetching Images from Dummy JSON API</h1>
             <h2>Images:</h2>
             <ol>

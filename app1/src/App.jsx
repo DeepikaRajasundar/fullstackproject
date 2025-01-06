@@ -13,17 +13,18 @@ import UseContext from './Components/FunctionalComponents/UseContext.jsx';
 import UseMemo from './Components/FunctionalComponents/UseMemo.jsx';
 import Login from './Components/FunctionalComponents/Login.jsx'
 import Signup from './Components/FunctionalComponents/Signup.jsx'
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SignUpForm from './Components/FunctionalComponents/Signup.jsx';
 
 function App() {
     return (
         <div>
             <BrowserRouter>
-                <NavBar /> 
+                 
                 <Routes>
-                <Route path="/Login" element={<Login/>}/>
-                <Route path="/Signup" element={<Signup/>}/>
+
+                <Route path="/" element={<Login/>}/>
+                <Route path="/signup" element={<SignUpForm/>} />
                     <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About college="Kongu engineering" clg1="Kongu arts" clg2="Naturopathy" district="Perundurai"/>} />
                     <Route path="/gallery" element={<Gallery />} />

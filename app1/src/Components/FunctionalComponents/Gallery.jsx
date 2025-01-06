@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import NavBar from "./NavBar";
+
 const Gallery=()=>{
     var [counter,setCount]=useState(0);
     function increment(){
@@ -12,6 +14,7 @@ const Gallery=()=>{
     }
     return(
         <section>
+            <NavBar />
         <h2 style={{textAlign:"center",fontSize:"50px"}}>Learning state concepts</h2>
          <h1>This is my gallery page</h1>
  

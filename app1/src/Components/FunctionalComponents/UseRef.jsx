@@ -1,4 +1,6 @@
 import { useRef,useState,useEffect } from "react";
+import NavBar from "./NavBar";
+
 var UseRef = () => {
     var [text, setText] = useState("");
     var[state,setState]=useState(0);
@@ -18,6 +20,7 @@ var UseRef = () => {
     },[state]);
     return (
       <section>
+        <NavBar />
         <h1>This is an example of useref</h1>
         <input
           type="text"
