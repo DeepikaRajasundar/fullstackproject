@@ -1,23 +1,23 @@
-ul{
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
     justify-content: space-evenly;
-    display:flex;
-    padding:0;
-    margin:0;
-    text-decoration:none;
-    list-style-type:none;
-    background-color:bisque;
-    padding: 20px;
-}
-li{
+    list-style-type: none;
+    background-color: rgb(236, 149, 217);
+    color: aliceblue;
+    padding: 10px;
+  }
+  
+  .link {
     cursor: pointer;
-    border-radius:5px;
-    padding:3px;
-
-}
-li:hover{
-    background-color:white;
-    
-    color:brown;
-    
-
-}
+    padding: 3px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .link:hover {
+      background-color: white;
+      color: chocolate;
+    }
