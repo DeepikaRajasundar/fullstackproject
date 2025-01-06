@@ -1,4 +1,4 @@
-import "../../assets/css/Form.css";
+import "../css/Form.css";
 const Form=()=>{
     return(<section>
         <h1 style={{textAlign:"center"}}>This is form page</h1>
