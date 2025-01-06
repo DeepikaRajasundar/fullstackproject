@@ -22,7 +22,9 @@ function App() {
             <BrowserRouter>
                 <NavBar /> 
                 <Routes>
-                    <Route path="/" element={<Home />} /> {/* Unique paths */}
+                <Route path="/Login" element={<Login/>}/>
+                <Route path="/Signup" element={<Signup/>}/>
+                    <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About college="Kongu engineering" clg1="Kongu arts" clg2="Naturopathy" district="Perundurai"/>} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact" element={<Contact />} />
@@ -31,8 +33,7 @@ function App() {
                     <Route path="/use-ref" element={<UseRef/>}/>
                     <Route path="/UseContext" element={<UseContext/>}/>
                     <Route path="/UseMemo" element={<UseMemo/>}/>
-                    <Route path="/Login" element={<Login/>}/>
-                    <Route path="/Signup" element={<Signup/>}/>
+                   
 
                 </Routes>
             </BrowserRouter>
