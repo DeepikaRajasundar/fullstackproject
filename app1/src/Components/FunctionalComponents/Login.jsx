@@ -9,7 +9,7 @@ var[password,setPassword]=useState("")
 var navigate=useNavigate()
 var login=async(event)=>{
     event.preventDefault();
-var req=await axios.post("http://localhost:3001/login",{
+var req=await axios.post("https://fullstackproject-3-ld4j.onrender.com/login",{
 email,password
 });
 console.log(req);
